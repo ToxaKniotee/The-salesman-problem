@@ -20,7 +20,6 @@ int graph[] = {
 
 int main(int argc, char const *argv[]) {
     theSalesmanProblem();
-    system("PAUSE");
     return 0;
 }
 
@@ -53,7 +52,7 @@ void theSalesmanProblem() {
     /* Imprimimos el resultado */
     printf("El camino mas corto es : 1 ");
     getPath(0, rowMax - 2);
-    printf("1\nCon un pedo de: %d\n", result);
+    printf("1\nCon un peso de: %d\n", result);
 }
 
 int compute(int start, int set) {
